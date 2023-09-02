@@ -1,0 +1,26 @@
+.custom-checkbox {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--primary-gray-secondary, #AAB7D4);
+  background: var(--neuteral-gray-background, #F8FAFB);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  &.checked {
+    background: var(--primary-gray-secondary, #AAB7D4);
+    border: none;
+  }
+
+  .checkmark {
+    color: white;
+    font-size: 12px;
+  }
+}
